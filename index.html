@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Skilled e-learning landing page</title>
+</head>
+<body>
+  <header>
+    <div class="header--container">
+      <img class="header__logo" src="assets/logo-dark.svg" alt="logo">
+      <a class="header__btn" href="#">Get Started</a>
+    </div>
+  </header>
+  <main>
+      <section class="intro">
+        <h1 class="intro__heading">Maximize skill, minimize budget</h1>
+        <p class="intro__text">Our modern courses across a range of in&#8209;demand skills will give you the 
+          knowledge you need to live the life you want.</p>
+        <a class="intro__btn" href="#">Get Started</a>
+      </section>
+      <section class="intro__img--container">
+        <picture>
+          <source media="(max-width: 500px)"
+                  srcset="assets/image-hero-mobile.webp,
+                          assets/image-hero-mobile.png,
+                          assets/image-hero-mobile@2x.webp 2x
+                          assets/image-hero-mobile@2x.png 2x">
+          <source media="(max-width: 950px)"
+                  srcset="assets/image-hero-tablet.webp,
+                          assets/image-hero-tablet.png,
+                          assets/image-hero-tablet@2x.webp 2x
+                          assets/image-hero-tablet@2x.png 2x">
+          <source srcset="assets/image-hero-desktop.webp,
+                          assets/image-hero-desktop.png,
+                          assets/image-hero-desktop@2x.webp 2x
+                          assets/image-hero-desktop@2x.png 2x">
+          <img class="intro__img" src="assets/image-hero-desktop.png" alt="image">
+        </picture>
+      </section>
+
+
+    <section class="cards">
+      <div class="card">
+        <h2 class="card__title">Check out our most popular courses!</h2>
+      </div>
+      <div class="card">
+        <h2 class="card__title">Animation</h2>
+        <p class="card__text">Learn the latest animation techniques to create stunning motion 
+          design and captivate your audience.</p>
+        <a class="card__link" href="#">Get Started</a>
+        <img class="card__icon" src="assets/icon-animation.svg" alt="animation icon">
+      </div>
+      <div class="card">
+        <h2 class="card__title">Design</h2>
+        <p class="card__text">Create beautiful, usable interfaces to help shape the future of 
+          how the web looks.</p>
+        <a class="card__link" href="#">Get Started</a>
+        <img class="card__icon" src="assets/icon-design.svg" alt="animation icon">
+      </div>
+      <div class="card">
+        <h2 class="card__title">Photography</h2>
+        <p class="card__text">Explore critical fundamentals like lighting, composition, and focus 
+          to capture exceptional photos.</p>
+        <a class="card__link" href="#">Get Started</a>
+        <img class="card__icon" src="assets/icon-photography.svg" alt="animation icon">
+      </div>
+      <div class="card">
+        <h2 class="card__title">Crypto</h2>
+        <p class="card__text">All you need to know to get started investing in crypto. Go from beginner 
+          to advanced with this 54 hour course.</p>
+        <a class="card__link" href="#">Get Started</a>
+        <img class="card__icon" src="assets/icon-crypto.svg" alt="animation icon">
+      </div>
+      <div class="card">
+        <h2 class="card__title">Business</h2>
+        <p class="card__text">A step-by-step playbook to help you start, scale, and sustain your business 
+          without outside investment.</p>
+        <a class="card__link" href="#">Get Started</a>
+        <img class="card__icon" src="assets/icon-business.svg" alt="animation icon">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer--container">
+      <img class="footer__logo" src="assets/logo-light.svg" alt="logo">
+      <a class="footer__btn" href="#">Get Started</a>
+    </div>
+  </footer>
+</body>
+</html>
