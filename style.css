@@ -25,7 +25,7 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: var(--gradient-gray);
+    background: var(--gradient-gray);
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
@@ -369,6 +369,7 @@ main {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 3rem;
+        row-gap: 8rem;
         margin-top: 25rem;
     }
     
