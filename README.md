@@ -29,12 +29,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/desktop_screenshot.png)
+![](./screenshots/tablet_screenshot.png)
+![](./screenshots/mobile_screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://skilled-elearning-landing-page-fm19.netlify.app/
+- Live Site URL: https://github.com/Kristina225/Frontend-Mentor-Project-Newbie---skilled-elearning-landing-page
 
 ## My process
 

@@ -8,8 +8,6 @@
     padding: 0;
 }
 
-
-
 :root {
     font-size: 62.5%;
     --color-light-blue: #666CA3;
@@ -22,7 +20,6 @@
     --gradient-blue: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
     --gradient-gray: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
-
 
 /* ------------------------------------- MOBILE VIEW ------------------------------------ */
 
@@ -101,6 +98,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .intro__heading {
@@ -261,15 +259,15 @@ main {
     
     .intro__img--container{
         z-index: -1;
-        overflow: hidden;
+        width: 100%;
+        height: auto;
+        z-index: -1;
     }
 
     .intro__img {
         position: absolute;
         right: -30rem;
         top: -15.5rem;
-        width: 100%;
-        height: auto;
     }
     
     /* ----------------------------------- Tablet: Main Cards Content -------------------------- */
